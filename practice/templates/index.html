@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+  </head>
+  <body>
+    <h1>this page is HOME</h1>
+    <p>{% if user.is_authenticated %}{{user.username}}{%else%}guest{%endif%}</p>
+  </body>
+</html>
